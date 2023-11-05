@@ -38,7 +38,7 @@ create an entangled pair.
 """
 
 def entangle_bell_pair(qc, a, b):
-    # Putting qubit into a state |+⟩ and |-⟩ using the hadamard gate 'h'
+    # Putting qubit into a state |+⟩ and |-⟩ using the Hadamard gate 'h'
     qc.h(a) 
     # Controlled-not with a as the control and b as the target
     qc.cx(a,b)
